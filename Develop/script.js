@@ -34,6 +34,13 @@ $(function () {
     localStorage.setItem(timeBlockId, userInput);
   })
 
+  $('.time-block').each(function () {
+    var timeBlockId = $(this).attr('id');
+    var storedValue = localStorage.getItem(timeBlockId);
 
+    if (storedValue !== null) {
+      $(this).find('.description').val(storedValue);
+    }
+  });
 
 });

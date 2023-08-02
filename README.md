@@ -6,3 +6,4 @@
 - "added the date and committed things to local storage" - really quickly added the date and created a formula to commit text to local storage
 - "added logic for color background" added the jv function for the background colors 
 - "fixed issues with scheduler formatting" small copy and paste issue with the html caused the scheduler hour margins to be off. 
+- "added the getStorage to jv" - added a getStorage function and added a text-center to the html to center the top text. 
